@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+table,th,td{
+border:1px solid black;
+}
+table{ border:solid 4px;
+    border-top-color:#f2f2f2;
+    border-right-color:#f2f2f2;
+    border-bottom-color:#fff0b3;
+    border-left-color:#fff0b3; }
+th,td{
+border-style: outset;border: none;
+}
+body {
+  background-color:#fffae6;
+}
+</style>
+</head>
+<body>
+<table align="center"cellspacing="4">
+<th colspan="2" style="color:red;background-color:#ffff80">User Form</th>
+<colgroup>
+    <col span="2" style="background-color:#33ccff">
+  </colgroup>
+<tr>
+     <td>Enter Name</td>
+     <td> <input type="text" id="name" name="name" style="background-color:#1aff66"></td>
+</tr>
+<tr>
+     <td>Enter<br>Password</td>
+     <td><input type="password" id="password" name="password"style="background-color:#1aff66"></td>
+</tr>
+<tr>
+     <td>Enter<br>Address</td>
+     <td><textarea name="textarea" cols="25" rows="5" id="textarea"style="background-color:#1aff66"></textarea><</td>
+</tr>
+<tr>
+       <td><br>Select<br>Game</td>
+       <td><input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1">Hockey<br>
+<input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup2">Football<br>
+<input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup3">Badminton<br>
+<input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup4">Cricket<br>
+<input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup5">Volleyball<br></td>
+</tr>
+<tr>
+    <td>Gender</td>
+    <td><input type="radio" name="radiogroup1" value="radio" id="radiogroup1"> Male
+<input type="radio" name="radiogroup1" value="radio" id="radiogroup2"> Female</td>
+<tr>
+     <td>Select your<br>age</td>
+     <td><select name="Age" id="Age"style="background-color:#1aff66">
+        <option selected >Select</option>
+        <option>1-20</option>
+        <option>21-30</option>
+        <option>31-40</option>
+        <option>41-50</option>
+        <option>51-60</option>
+        <option>Above 60</option>
+      </select></td>
+</tr>
+<tr >
+    <td colspan="2" style="text-align:center" ><input type="file" name="fileField" id="fileField"style="background-color:#1aff66"><br></td>
+ </tr>
+<tr style="height:50px">
+<td colspan="2" style="text-align:center">
+<button type="Click" id="Click" style="background-color:#1aff66;border: none;padding: 10px 20px" >Click Me!</button>         <button type="reset" id="Reset" style="background-color:#1aff66;border: none;padding: 10px 20px">Reset</button>          <button type="Submit" id="Submit" style="background-color:#1aff66;border: none;padding: 10px 20px">Submit for</button></td>
+<tr>
+</table>
+</body>
+</html>
+
